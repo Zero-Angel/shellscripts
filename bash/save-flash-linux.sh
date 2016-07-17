@@ -4,7 +4,7 @@
 # AUTHOR: Janos Gyerik <info@janosgyerik.com>
 #         with additions by David Bobb <zeroangelmk1@gmail.com>
 # DATE:   2011-08-24
-# REV:    1.1.D (Valid are A, B, D, T and P)
+# REV:    1.2.D (Valid are A, B, D, T and P)
 #               (For Alpha, Beta, Dev, Test and Production)
 #
 # PLATFORM: Linux only
@@ -30,7 +30,7 @@ usage() {
 #    echo "  -a, --audio         Save as MP3 File (requires ffmpeg)"
 #
 # Demux to AAC
-    echo "  -a --audio          Save audio only (aac format) (requires ffmpeg)"
+    echo "  -a --audio          Save audio only (m4a/aac format) (requires ffmpeg)"
     echo
     echo "  -h, --help          Print this help"
     echo
